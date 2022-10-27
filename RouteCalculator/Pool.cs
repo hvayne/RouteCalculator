@@ -11,7 +11,7 @@ namespace RouteCalculator
     {
         public BigInteger Amount0 { get; set; }
         public BigInteger Amount1 { get; set; }
-        public string Token0 { get; set; }
-        public string Token1 { get; set; }
+        public Token Token0 { get; set; }
+        public Token Token1 { get; set; }
     }
 }
